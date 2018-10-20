@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+h2 {
+    font: bold 15px Helvetica;
+}
+header, section, aside, footer, nav, article, hgroup {
+    display: block;
+}
+body {
+    text-align: center;
+}
+.cabecera {
+    padding: 20px;
+    background-color: #F1C40F;
+}
+.cabecera h1 {
+    text-align: left;
+
+}
+.agrupar {
+    background-color: #ff8000;
+    width: 1000px;
+    margin: 20px auto;
+}
+.menu {
+    padding: 5px 15px;
+    background: #000;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 15px helvetica;
+    display: inline-block;
+    color: #fff;
+}
+.seccion {
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+article {
+    background-color: #AED6F1;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+time {
+    color: #999;
+}
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+.columna {
+    width: 340px;
+    margin: 20px 0;
+    float: left;
+}
+.columna blockquote {
+    border: 1px solid #000;
+    padding: 50px;
+    margin: 20px;
+    background-color: #FCF3CF;
+}
+.pie {
+    clear: both;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+img {
+    width: 80px;
+    border: 1px solid #000;
+    display: block;
+    margin: 20px auto;
+}
